@@ -20,9 +20,7 @@ export default function RegisterScreen() {
 
   const Registeruser = async () => {
     try {
-      // console.log("user =>",username);
-      // console.log("pass =>",number);
-
+      
       const { data } = await Axios.post(
         "http://192.168.29.77/login/register.php",
         {
