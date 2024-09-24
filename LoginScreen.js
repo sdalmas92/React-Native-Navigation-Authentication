@@ -43,9 +43,7 @@ export default function LoginScreen({ navigation }) {
           { text: "OK", onPress: () => navigation.navigate("Home") },
         ]);
 
-        //  navigate('/Home');
-        // history.push('/Home')
-        //navigate('./screens/HomeScreen');
+        
       } else {
         alert("user not found");
       }
